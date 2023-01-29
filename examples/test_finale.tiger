@@ -1,0 +1,73 @@
+(let
+
+// Déclaration de types
+type ta = int
+type ta = String
+type tb = float
+type tc = ta
+type td = String
+type tableau = array of int
+type struct = {a:int, b:int, b:int, c: float}
+type structok = {a:int, b:int, c:int}
+
+// Déclaration de variables
+var a := 1
+var a := 2
+var b : int := "bonjour"
+var c : bool := 1
+var d := structok {a=1, b=2, c=3}
+var e := tableau [0] of 1
+
+// Déclaration de fonctions
+function f1() = 1
+function print() : int = 1
+function f2() = let var a := 1 in end
+function f2() = let var a := 1 in end
+function f3() : int = "bonsoir"
+function f4(a:int, a:int, b:int, c:int) = let var a := 1 in end
+function f5(a:int, b:int) : td = 1
+
+in
+
+a = "bonsoir";
+a = 1;
+a <> "bonsoir";
+a > "bonsoir";
+a + "bonsoir";
+a | "bonsoir";
+a & "bonsoir";
+-"bonsoir";
+
+for i := "bonsoir" to "bonjour" do 1;
+while "bonsoir" do 1;
+
+print("bonsoir","bonjour");
+newf();
+f4(1,2,"bonsoir");
+
+if "bonsoir" then "bonjour";
+if "bonsoir" then "bonjour" else 1;
+
+fauxrecord {x=1};
+td {x=1};
+structok {x=1, b="bonjour", c=3};
+
+fauxtableau [5] of 0;
+tb [5] of 0;
+tableau ["bonsoir"] of "bonsoir";
+
+faussevar := 1;
+a := "bonsoir";
+
+d.x := 1;
+d.a := "bonsoir";
+
+e["bonsoir"] := 1
+
+end;
+let
+var newvar := 1
+in
+a := 2
+end
+)

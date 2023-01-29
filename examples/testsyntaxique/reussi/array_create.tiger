@@ -1,0 +1,5 @@
+let
+type tableau = array of int
+in
+tab ["5"] of 0
+end

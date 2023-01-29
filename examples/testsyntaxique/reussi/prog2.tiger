@@ -1,0 +1,16 @@
+let
+
+var x : int := 5
+var y : int :=7
+var z : int := 3
+
+function add(a: int, b: int): int = a+b
+
+
+in
+
+
+print(add(x,y));
+print(mul(x,z))
+
+end

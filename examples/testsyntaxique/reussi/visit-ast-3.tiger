@@ -1,0 +1,15 @@
+(while N > 0 do
+  (N := N - 1;
+  break);
+  for bonjour := 1 to 10 do
+    writeln("bonjour");
+  69;
+  "bonsoir";
+  print("bonsoir", "bonjour", "bonsoir");
+  print();
+  newarray [1] of nil;
+  newrecord {a = 1, b= 2, c= 3};
+  newrecord2 {};
+  if 7 then 8 else 9;
+  if 7 then 8
+)

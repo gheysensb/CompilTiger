@@ -1,0 +1,17 @@
+let
+    function test1 (x:int,y:int,y:int) =
+        let
+            function test2 ()=
+                let
+                    function test3 () : int =
+                        let
+                            function test1 (z:int,p:int) : int =
+                                1+1
+                        in
+                        end
+                in
+                end
+        in
+        end
+in
+end

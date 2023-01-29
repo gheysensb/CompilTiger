@@ -1,0 +1,5 @@
+let
+type newrec = {a:int,b:int,c:int}
+in
+newrec { a = 1 , e=2 , c="int" }
+end

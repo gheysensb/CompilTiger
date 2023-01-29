@@ -1,0 +1,19 @@
+(
+let
+var N := 8
+in
+end;
+let
+var row := 8
+type intarray = array of int
+var raw := intarray [4] of 0
+in
+if "bonsoir" then print("M is zero") else 0;
+let
+var N := 8
+var N := 5
+in
+end;
+row[2] = 0
+end
+)

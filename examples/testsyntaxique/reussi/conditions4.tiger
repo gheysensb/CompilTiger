@@ -1,0 +1,6 @@
+let
+	var x := 1
+in
+		n*f(n);
+	x := -1*1+1
+end

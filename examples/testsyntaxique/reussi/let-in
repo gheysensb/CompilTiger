@@ -1,0 +1,5 @@
+let
+var N := 8
+in
+let var N := 8 in  end
+end

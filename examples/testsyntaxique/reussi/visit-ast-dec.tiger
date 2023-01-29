@@ -1,0 +1,23 @@
+let
+type type0 = int
+type list = array of type1
+type rec1 = {x: type0, y: type0}
+type type1 = {}
+var N := 8
+var M : type0 := 9
+function func1 (x: type0) =
+  if x = 0 then 1 else x * func1 (x - 1)
+
+function testtype (x:int) = 2+1
+
+function func2 (y: type0) =
+    (if y = 0 then 1 else y * func2 (y - 1);
+    nom = "hello")
+
+function func3 () : type0 = 0
+function func4 () = x
+
+
+in
+
+end

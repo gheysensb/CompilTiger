@@ -1,0 +1,10 @@
+let
+type test1 = int
+type test2 = array of int
+type test3 = array of test1
+type test4 = array of zerr
+type test5 = {}
+type test6 = {a: int, a:int, b:test6, c:etrh}
+in
+
+end
